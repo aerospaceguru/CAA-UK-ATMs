@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # GATHERS TOGETHER INITIAL INFORMATION SOURCES
 print()
 fn1 = os.path.join(input('Enter first filename path : ').strip('"'))
-fn2 = os.path.join(input('Enter first filename path : ').strip('"'))
+fn2 = os.path.join(input('Enter second filename path : ').strip('"'))
 month1 = input('Enter first month and year: ')
 month2 = input('Enter second month and year: ')
 stat = input('Enter desired statistic by column title: ')
